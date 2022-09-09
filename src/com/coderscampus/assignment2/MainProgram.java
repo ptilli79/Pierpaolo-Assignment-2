@@ -41,7 +41,7 @@ public class MainProgram {
         scanner.close();
         if (userInput == random_int) {
         	System.out.println("You are very lucky! You won the game after " + valid_attempts +" attempts.");
-        	System.out.println("Random number positive match: " + random_int);	
+        	//System.out.println("Random number positive match: " + random_int);	
         }
         else {
         	System.out.println("Sorry, try again! You have tried "+ valid_attempts + " times." );
